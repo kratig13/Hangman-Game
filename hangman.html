@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan Game JavaScript</title>
+    <link rel="stylesheet" href="hangman.css">
+    <script src="scripts/words.js" defer></script>
+    <script src="scripts/scripts.js" defer></script>
+    
+</head>
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="lost gif.gif" alt="gif">
+            <h4>Game Over!</h4>
+            <p>The correct word was:<b>rainbow</b></p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="hangman-0.svg" alt="hangman-img">
+            <h1>HangMan Game</h1>
+        </div>
+        <div class="game-box">
+            <u1 class="word-display"></u1>
+            <h4 class="hint-text">
+                Hint:
+                <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</b>
+            </h4>
+            <h4 class="guesses-text">
+                Incorrect guesses:
+                <b>0 / 6</b>
+            </h4>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+</body>
+</html>
